@@ -48,23 +48,6 @@ def calculate_total_distance(graph, positions, path):
     return total_distance
 
 # ---Visualize UDG ---
-# def visualize_udg(udg, udg_positions):
-#     """
-#     Visualize the Unit Disk Graph (UDG).
-#     """
-#     plt.figure(figsize=(8, 6))
-#     nx.draw(
-#         udg,
-#         pos=udg_positions,
-#         with_labels=True,
-#         node_color="lightblue",
-#         edge_color="gray",
-#         node_size=500,
-#         font_size=10,
-#     )
-#     plt.title("Unit Disk Graph (UDG)")
-#     plt.show()
-# --- Visualize UDG ---
 def visualize_udg(udg, udg_positions, path_nodes=None, current_node=None):
     """
     Visualize the Unit Disk Graph (UDG) with optional path highlighting.
